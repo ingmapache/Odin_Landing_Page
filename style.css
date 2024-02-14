@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    background-color: aqua;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .2);
+}
+
+#drLogo {
+    height: 35px;
+    position: absolute;
+    left: 5vw;
+}
+
+#navLinkContainer {
+    position: absolute;
+    right: 5vw;
+    height: 95%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+a.navLink {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+}
+
+a.navLink:visited {
+    color: #ed59ff;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
