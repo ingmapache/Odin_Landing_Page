@@ -107,11 +107,11 @@ main {
 
 /* Characters Section */
 #characters {
-    background-color: black;
+    background-color: #2b2e2c;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 600px;
+    height: 450px;
 }
 
 #characters * {
@@ -129,8 +129,8 @@ main {
 
 #students {
     display: flex;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: center;
+    gap: 45px;
     flex-wrap: wrap;
 }
 
