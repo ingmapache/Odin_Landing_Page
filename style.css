@@ -14,6 +14,7 @@ body {
     margin: 0;
 }
 
+/* Nav Bar */
 nav {
     height: 50px;
     width: 100vw;
@@ -53,6 +54,7 @@ a.navLink:visited {
     color: #ed59ff;
 }
 
+/* Main Section */
 main {
     width: 100%;
     margin: 0 auto;
@@ -61,9 +63,14 @@ main {
     display: block;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+/* Home Section */
 #homeSection {
     width: 80vw;
-    height: 60vh;
+    height: 400px;
     display: flex;
     margin: 0 auto;
     background-color: white;
@@ -76,9 +83,7 @@ main {
     align-items: center;
     margin: 0 auto;
     width: 40vw;
-    height: 60vh;
-    overflow: hidden;
-    object-fit: contain;
+    height: 400px;
 }
 
 #homeText {
@@ -95,10 +100,22 @@ main {
    padding: 0;
    margin: 0;
    width: 100%;
+   min-height: 400px;
+   overflow: hidden;
+   object-fit: cover;
 }
 
+/* Characters Section */
 #characters {
-    background-color: aqua;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+}
+
+#characters * {
+    box-sizing: border-box;
 }
 
 #cHeader {
@@ -107,19 +124,62 @@ main {
     margin: 0;
     position: relative;
     top: 20px;
+    color: #ed59ff;
+}
+
+#students {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .studentsContainer { 
-    height: 400px;
-    width: 300px;
+    height: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    border: 10px solid black;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: flex-end;
 }
 
 .iBox {
-    height: 80%;
+    height: 130px;
     width: 100%;
+    
     object-fit: contain;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 
+.cTBox {
+    height: 66px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cTBox p {
+    margin: 0;
+}
+
+#NMImage, #KAImage, #EJImage, #SSImage {
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+@media (max-width: 900px) {
+    #homeText {
+        font-size: 1.8rem;
+    }
+    
+    #hSHeader {
+        font-size: 3rem;
+    } 
+}
