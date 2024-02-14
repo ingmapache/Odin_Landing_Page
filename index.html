@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" src="./style.css">
+</head>
+<body>
+    <nav>
+        <img id="drLogo" src="./assets/dr_logo.png" alt="Dangan Ronpa Logo">
+        <div id="navLinkContainer">
+            <a class="navLink" href="#homeSection">Home</a>
+            <a class="navLink" href="#characters">Characters</a>
+            <a class="navLink" href="#quoteSection">Quote</a>
+        </div>
+    </nav>
+    <main>
+        <!-- Home section, here you can find two containers with elements inside -->
+        <section id="homeSection">
+            <div class="homeSectionContainers">
+                <h2 id="hSHeader">Welcome to the best school</h2>
+                <p>Here at Hope's Peak Academy we like to develop the talents of 
+                    exceptional highschool children, or as we call them "Ultimates".
+                </p>
+            </div>
+            <div class="homeSectionContainers">
+                <img src="./assets/hpa.webp" alt="A picture of Hope's Peak Academy from the front perspective">
+            </div>
+        </section>
+
+        <!-- Characters Section, here  you can find flex & grid being used and student info -->
+        <section id="characters">
+            <h2 id="cHeader">Our top students</h2>
+            <div id="students">
+                <div class="studentsContainer">
+                    <div>
+                        <div>
+                            <img src="./assets/naegi.jpeg" alt="A picture of Naegi Makoto">
+                        </div>
+                        <p><span class="bold">Naegi Matoto</span><br>Ultimate Hope</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./assets/kaede.jpeg" alt="A picture of Kaede Akamatsu">
+                        </div>
+                        <p><span class="bold">Kaede Akamatsu</span><br>Ultimate Pianist</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./assets/shuichi.jpeg" alt="A picture of Shuichi Saihara">
+                        </div>
+                        <p><span class="bold">Shuichi Saihara</span><br>Ultimate Detective</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./assets/junko.jpeg" alt="A picture of Junko Enoshima">
+                        </div>
+                        <p><span class="bold">Junko Enoshima</span><br>Ultimate Analyst</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section, a plain quote section -->
+        <section id="quoteSection">
+            <blockquote id="quote" cite="https://www.thegamer.com/danganronpa-series-best-quotes/#ldquo-but-our-future-is-ours-we-rsquo-re-not-going-to-leave-it-in-anyone-else-rsquo-s-hands-anymore-rdquo---hajime-danganronpa-2-goodbye-despair">“But Our Future Is Ours! We’re Not Going To Leave It In Anyone Else’s Hands Anymore.”</blockquote>
+            <p id="qAuthor">Hajime Hinata - Ultimate Hope</p>
+        </section>
+
+        <!-- CTA Section, theres gonna be a fake Sign up button -->
+        <section id="CTASection">
+            <div id="CTA">
+                <div id="CTAText">
+                <p><span>Are you ready to be an Ultimate?</span><br>Apply to Hope's Peak Academy and prove your worth!</p>
+                </div>
+                <div>
+                    <input type="submit" value="Apply now">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section, basic section with copyright information -->
+        <footer>
+            <p>© Danganronpa is property Spike Chunsoft, this is merely a tribute page.</p>
+        </footer>
+    </main>
+</body>
+</html>
