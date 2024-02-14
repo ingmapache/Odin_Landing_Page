@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 10px;
-    background-color: aqua;
+    background-color: white;
 }
 
 html * {
@@ -54,7 +54,45 @@ a.navLink:visited {
 }
 
 main {
-    width: 100%;
+    width: 90vw;
+    margin: 0 auto;
     position: relative;
     top: 50px;
+    display: block;
+}
+
+#homeSection {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.homeSectionContainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 40vw;
+    height: 60vh;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#homeText {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#hSHeader {
+    font-size: 4rem;
+}
+
+#homeImg {
+   padding: 0;
+   margin: 0;
+   width: 100%;
 }
