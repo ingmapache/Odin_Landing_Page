@@ -48,6 +48,7 @@ a.navLink {
     text-decoration: none;
     font-size: 1.8rem;
     color: black;
+    cursor: pointer;
 }
 
 a.navLink:visited {
@@ -240,6 +241,18 @@ blockquote {
 
 #button:hover {
     cursor: pointer;
+}
+
+/* CTA Section */
+footer {
+    background-color: #ed59ff;
+    height: 35px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
 }
 
 @media (max-width: 1100px) {
@@ -442,5 +455,9 @@ blockquote {
     #button {
         font-size: 1.2rem;
         padding: 5px;
+    }
+
+    footer {
+        font-size: 1.1rem;
     }
 }
